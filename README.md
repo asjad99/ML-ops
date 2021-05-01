@@ -98,24 +98,22 @@ Building Data Pipelines with Python — Katharine Jarmul explains how to build d
  
 ### Data Ingestion 
 ### Distributed training for large scale datasets
-
 ### Containers 
 - Kubernetes
 - Docker
  
 ### REST API (Flask etc) 
 
----
+ ---------
 
-### Primer on distributed systems (bonus)
+### Primer on distributed systems
 
-    Replication
-    Partitioning
-    Transactions 
-    Consistency and Consensus
+   - Replication
+   - Partitioning
+   - Transactions 
+   - Consistency and Consensus
     
-
----
+ ---------
 
 ### Resources:
 
