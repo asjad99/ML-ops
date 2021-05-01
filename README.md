@@ -9,6 +9,8 @@ Before we can do data science we need to setup the infrastructure
 ![alt text](images/pyramid.png "Logo Title Text 1")
 
 
+---- 
+
 #### Cloud Data Storage  
   
 We explore the following Cloud Storage engines:  
@@ -27,7 +29,7 @@ We explore the following Cloud Storage engines:
 
 ---- 
 
-####  Data Explore-Modeling 
+####  EDA + Data Cleaning + Modeling 
 
 Our [open source machine learning course](https://github.com/asjad99/Machine-Learning-GYM) covers these topics :    
 
@@ -35,17 +37,13 @@ Our [open source machine learning course](https://github.com/asjad99/Machine-Lea
 
 ### Data Pipelines 
 
-Build and maintain the organization’s data pipeline systems
+Data Engineers are responsible for Building and maintaining the organization’s data pipeline systems: 
 
-> a data pipeline is nothing but a series of operations, when streamed together, helped us to automatically capture, munged, aggregated data on a recurring basis.
-
-> Creating a data pipeline may sound easy or trivial, but at big data scale, this means bringing together 10-30 different big data technologies. 
-More importantly, a data engineer is the one who understands and chooses the right tools for the job. 
-
-> A data engineer is the one who understands the various technologies and frameworks in-depth, and how to combine them to create solutions to enable a 
+A data pipeline is nothing but a series of operations, when streamed together, helped us to automatically capture, munged, aggregated data on a recurring basis. Creating a data pipeline may sound easy or trivial, but at big data scale, this means bringing together 10-30 different big data technologies. 
+More importantly, a data engineer is the one who understands and chooses the right tools for the job.  A data engineer is the one who understands the various technologies and frameworks in-depth, and how to combine them to create solutions to enable a 
 company’s business processes with data pipelines.
 
-read more:
+* read more: * 
 Building Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
 
 
