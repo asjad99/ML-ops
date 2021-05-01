@@ -1,5 +1,7 @@
 # Ml Engineering
 
+
+### About: 
 > a data engineer is someone who has specialized their skills in creating software
 solutions around big data.
 
@@ -7,20 +9,7 @@ Before we can do data science we need to setup the infrastructure
 
 ![alt text](images/pyramid.png "Logo Title Text 1")
 
-At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
-At mid-stage growing start-ups: Since the company is growing, the data is probably growing too. The data platform needs to adapt, but with the foundation laid out already, there will be a natural shift to insight generation. Unless the company leverages Data Science for its strategic differentiation to start with, many analytics work are around defining KPI, attributing growth, and finding the next opportunities to grow
-Companies who achieved scale: When the company scales up, data also scales up. It needs to leverage data to create or maintain competitive edge. e.g. Search results need to be better, recommendations need to be more relevant, logistics or operations need to be more efficient — this is the time where specialist like ML engineers, Optimization experts, Experimentation designers can play a huge role in stepping up the game.
-
-
-##### Clean and wrangle data into a usable state
-
-> Data engineers make sure the data the organization is using is clean, reliable, and prepped for whatever use cases may present themselves. 
-Data engineers wrangle data into a state that can then have queries run against it by data scientists.
-
-> Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
-The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
-
-##### Build and maintain the organization’s data pipeline systems
+### Build and maintain the organization’s data pipeline systems
 
 > a data pipeline is nothing but a series of operations, when streamed together, helped us to automatically capture, munged, aggregated data on a recurring basis.
 
@@ -34,10 +23,19 @@ read more:
 Building Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
 
 
------------------------------------
-
 #### Cloud Data Storage  
   storage engines (e.g. S3, HDFS, HBase, Kudu)
+  
+  
+####  Clean and wrangle data into a usable state
+
+> Data engineers make sure the data the organization is using is clean, reliable, and prepped for whatever use cases may present themselves. 
+Data engineers wrangle data into a state that can then have queries run against it by data scientists.
+
+> Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
+The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
+
+see guide: 
 
 #### Data Modelling  
 
@@ -97,6 +95,12 @@ Kubernetes, Docker
 |
 
 
+Data Drift :
+your real world dataset would not always have same distribution. For example the way a person shops in spring would be different than that of winter. So when you train a model on spring data set and deployed it you cant test it when winters come. So the data type is drifted away from normal and this is something to keep an eye 
+
+Model Drift:
+now when your model is deployed and you start making predictions online (realtime) with passage of time due to data drift your model performance will de-grade and you would need to keep track of those changes. you would need to re train your model on latest dataset and then re-deploy it
+
 ### resources:
 
 - Stanford Data Engineering: 
@@ -109,3 +113,11 @@ https://docs.google.com/document/d/1b9iuZiDEGVLHyMmnf6w2y1aN6yWQhAyqk3GHlpI9q6M/
     
    
 (AIEngineering)[https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw]  
+
+
+
+
+At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
+At mid-stage growing start-ups: Since the company is growing, the data is probably growing too. The data platform needs to adapt, but with the foundation laid out already, there will be a natural shift to insight generation. Unless the company leverages Data Science for its strategic differentiation to start with, many analytics work are around defining KPI, attributing growth, and finding the next opportunities to grow
+Companies who achieved scale: When the company scales up, data also scales up. It needs to leverage data to create or maintain competitive edge. e.g. Search results need to be better, recommendations need to be more relevant, logistics or operations need to be more efficient — this is the time where specialist like ML engineers, Optimization experts, Experimentation designers can play a huge role in stepping up the game.
+
