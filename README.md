@@ -29,7 +29,7 @@ systems to help people working in data engineering, modeling, deployment and bus
 
 
 
-![alt text (https://camo.githubusercontent.com/cb0738ef62409d4383697dba6b233e061ba1c9fad57e286c9232b7be97feb539/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6c696e75782f6c696e75782d69636f6e2e737667 "Logo Title Text 1")
+![alt text](https://camo.githubusercontent.com/cb0738ef62409d4383697dba6b233e061ba1c9fad57e286c9232b7be97feb539/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6c696e75782f6c696e75782d69636f6e2e737667)
 
 
 
