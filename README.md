@@ -12,6 +12,21 @@ Before we can do data science we need to setup the infrastructure
 
 ![alt text](ml_hierarchy_of_needs.png "Logo Title Text 1")
 
+
+Developing an AI project development life cycle involves five distinct tasks:
+
+-  Data engineering: People responsible for data engineering prepare data
+and transform data into formats that other team members can use.
+-  Modeling: People assigned to modeling look for patterns in data that can
+help a company predict outcomes of various decisions, identify business risks
+and opportunities, or determine cause-and-effect relationships.
+-  Deployment: People in charge of deployment take a stream of data, combine it
+with a model, and test the integration before putting the model into production.
+-  Business analysis: Team members responsible for business analysis evaluate a deployed
+model’s performance and business value and adjust accordingly to maximize benefit or abandon unproductive models.
+-  AI infrastructure: People who work in AI infrastructure build and maintain reliable, fast, secure, and scalable software
+systems to help people working in data engineering, modeling, deployment and business analysis.
+
 ---- 
 
 #### Cloud Data Storage  
