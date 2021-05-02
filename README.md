@@ -116,6 +116,7 @@ Building Data Pipelines with Python — Katharine Jarmul explains how to build d
  
  ---------
 ### Feature Store 
+  - kind of an in-memory database such that at real time inference we have model features readily available
 ### Data Ingestion 
 ### Distributed training for large scale datasets
 ### Containers 
