@@ -115,13 +115,12 @@ Building Data Pipelines with Python — Katharine Jarmul explains how to build d
  Spark Streaming , Kafka, AWS Kinesis (Realtime Streaming)  
  
  ---------
- 
+### Feature Store 
 ### Data Ingestion 
 ### Distributed training for large scale datasets
 ### Containers 
 - Kubernetes
 - Docker
- 
 ### REST API (Flask etc) 
 
  ---------
