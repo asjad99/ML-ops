@@ -47,30 +47,7 @@ systems to help people working in data engineering, modeling, deployment and bus
 
 ---- 
 
-### Data Pipelines 
 
-Data Engineers are responsible for:
-
-- Building and maintaining the organization’s data pipeline systems
-- Design the big data infrastructure and prepare it to be analyzed.
-- Build complex queries to create “pipelines”.
-- Arrange any problems in the programmed system.
-
-A data pipeline is nothing but a series of operations, when streamed together, helped us to automatically capture, munged, aggregated data on a recurring basis. Creating a data pipeline may sound easy or trivial, but at big data scale, this means bringing together 10-30 different big data technologies. 
-More importantly, a data engineer is the one who understands and chooses the right tools for the job.  A data engineer is the one who understands the various technologies and frameworks in-depth, and how to combine them to create solutions to enable a 
-company’s business processes with data pipelines.
-
-
-![alt text](ml_pipeline.png "Logo Title Text 1")
-
-
-> “Data pipelines are sequences of processing and analysis steps applied to data for a specific purpose. They’re useful in production projects, and they can also be useful if one expects to encounter the same type of business question in the future, so as to save on design time and coding. For instance, one could remove outliers, apply dimensionality reduction techniques, and then run the result through a random forest classifier to provide automatic classification on a particular dataset that is pulled every week.”
-
-
-* read more: * 
-Building Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
-
- 
 ### Data Ingestion 
 
 ### Resources:
