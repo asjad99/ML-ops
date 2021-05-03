@@ -15,4 +15,5 @@ Make trajectory prediction research also deployable. This would be a little on c
 
 Other ideas: 
 
-https://github.com/san089/Udacity-Data-Engineering-Projects. 
+- [Fast Forward Labs research reports & prototypes](https://www.cloudera.com/products/fast-forward-labs-research/fast-forward-labs-research-reports.html)
+- [Udacity Nano-degree](https://github.com/san089/Udacity-Data-Engineering-Projects)
