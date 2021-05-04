@@ -1,4 +1,6 @@
-### ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
+### ML Engineering For Enterprise grade ML
+
+ ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
 
 ### Motivation: 
 
@@ -33,8 +35,20 @@ systems to help people working in data engineering, modeling, deployment and bus
 About/Scope: 
 
 - We present an iterative framework for designing real-world machine learning systems. 
--  We take a system level view of things and architect a solution based on  business requirements. 
-- The end goal of this framework is to build a system that is deployable, reliable, and scalable.
+-  We take a system level view of things and architect a solution based on  business requirements where the end goal of this framework is to build a system that is deployable, reliable, and scalable.
+- Enterprise grade ML, a term mentioned in [a paper put forth by Microsoft](https://arxiv.org/abs/1909.00084), refers to ML applications where there is a high level of scrutiny for data handling, model fairness, user privacy, and debuggability. While toy problems that data scientists solve on laptops using a csv dataset could be intellectually challenging, they are not enterprise grade machine learning problems.
+- In deployment (via containers or spark applications, for example), governance becomes paramount, especially in regulated environments. Data lineage, data versioning, model versioning, model explainability, model monitoring are all front and center.
+- Examples of System Design/Data Engineering tasks include: 
+  - Ingest data from a data source
+  - Build and maintain a data warehouse 
+  - create a data pipeline 
+  - create an analytics table for a specific use case 
+  - migrate data to cloud 
+  - schedule and automate pipelines 
+  - backfill data 
+  - debug data quality issues 
+  - optimize queries 
+  - design a database
 
 | Task/Topic                                         | Description of sub-tasks/Topics                              | Selected Tools                                            | Theory/Notes                                                 | Example Code                                                 |
 | -------------------------------------------------- | :----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -56,11 +70,11 @@ About/Scope:
 
 ### 
 
-## Case Studies: 
 
-* 
+
 * https://github.com/san089/Udacity-Data-Engineering-Projects
-* 
+
+  
 
 
 Interesting Articles: 
@@ -75,9 +89,15 @@ Interesting Articles:
 
 ### Resources:
 
+- Case Studies: https://huyenchip.com/machine-learning-systems-design/case-studies.html#case-studies-bYrWS80
+
 - [Stanford Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
 
 - [book] Designing Data-Intensive Applications by Martin Kleppmann
+
+- [Machine Learning system design - book draft](https://huyenchip.com/machine-learning-systems-design/toc.html)
+
+- [System Design for Large Scale Machine Learning](https://shivaram.org/publications/shivaram-dissertation.pdf)
 
 - [Stanford MLSys Seminars](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ)
 
