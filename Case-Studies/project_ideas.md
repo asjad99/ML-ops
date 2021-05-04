@@ -1,8 +1,45 @@
 ## Anomoly Detection 
 
-- developing an credit card fraud detection system (anomaly detection) all in realtime
+- Develop a realtime credit card fraud detection system by implementing end-end ML workflow 
 
-- it would be a feedback loop like we monitor the model performance on new incoming dataset (viii) and have a threshold that if the model performance degrades we then launch a trigger (Aws lambda function or something else) to retrain the model on subset of incoming data and then re-deploy it.  
+  #### Data Analysis and Business Understanding 
+
+  Preprocess data and analyze target variable 
+
+  feature engineering and extract their relative importance 
+
+  #### Model Building 
+
+  Try out different models and evaluate performance 
+
+  - One-Class SVM 
+  - Isolation Forest 
+  - Local Outlier Factor 
+
+  #### Setup Data Pipeline 
+
+  - Upload credit card data to AWS S3 bucket
+  - Deploy model as a Flask API endpoint on EC2 
+  - Set up AWS Lambda trigger to send data in realtime to the deployed model 
+  - Score model and send predictions to the dashboard 
+
+  #### Monitoring and Visualization 
+
+  - Set up R-Shiny Dashoard and display predictions. 
+  - In another tab monitor model performance in realtime.
+  - Setup alerts when model performance degrades. 
+
+  #### Retrain Model 
+
+  TBD
+
+  #### Re-deploy Model
+
+  TBD
+
+  #### CI/CD pipeline 
+
+  TBD 
 
 ## Trajectory Prediction 
 
