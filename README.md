@@ -84,19 +84,19 @@ About/Scope:
 - Github- [How To Become a Data Engineer](https://github.com/adilkhash/Data-Engineering-HowTo)
 - Github - [Nanodegree Projects](https://github.com/Flor91/Data-engineering-nanodegree)
 - GITHUB - [Nanodegree project 2](https://github.com/san089/Udacity-Data-Engineering-Projects)
-- Is dataFrame just a table
 - https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design
-- SQL Mastery
 - (AIEngineering)[https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw]  
 - List of Tools for [MLOps](https://docs.google.com/spreadsheets/d/1i8BzE4puGQ3dmQueu4LQCcwaqrulgK1Vb-xeFwhy6gY/edit)
 - [System Design Primer] https://github.com/donnemartin/system-design-primer
-- 
+- Data Engineer RoadMap](https://github.com/datastacktv/data-engineer-roadmap)
 
 ### Interesting Articles/Case Studies: 
 
 - https://huyenchip.com/machine-learning-systems-design/case-studies.html#case-studies-bYrWS80
 
 - https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
+
+- Is dataFrame just a table
 
   
 
