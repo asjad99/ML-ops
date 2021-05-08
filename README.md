@@ -66,22 +66,7 @@ About/Scope:
 | Setting up a cloud environment to deploy the model | Converting prototyped code into production code <br />Mastering cloud tools and infrastructure Preparing files (usually model architecture and parameters) for deployment <br />Encrypting files that store model parameters, architecture, and data <br />Setting up load-balancing requirements with engineers in charge of AI Infrastructure <br />Pruning or quantizing a model so it fits memory requirements | AWS                                                       |                                                              |                                                              |
 | Present / Launch Solution                          | Building APIs for an application to use a model -  Setting up HTTP RESTful API services to facilitate productionize <br /> Setting up authorization and authentication to access the API | **Flask etc**                                             |                                                              |                                                              |
 
-----
-
 ### 
-
-
-
-* https://github.com/san089/Udacity-Data-Engineering-Projects
-
-  
-
-
-Interesting Articles: 
-
-- https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
-
-  
 
 ---
 
@@ -89,33 +74,29 @@ Interesting Articles:
 
 ### Resources:
 
-- Case Studies: https://huyenchip.com/machine-learning-systems-design/case-studies.html#case-studies-bYrWS80
-
 - [Stanford Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
-
 - [book] Designing Data-Intensive Applications by Martin Kleppmann
-
 - [Machine Learning system design - book draft](https://huyenchip.com/machine-learning-systems-design/toc.html)
-
 - [System Design for Large Scale Machine Learning](https://shivaram.org/publications/shivaram-dissertation.pdf)
-
 - [Stanford MLSys Seminars](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ)
-
 - [Book - The Data Engineering Cookbook](https://github.com/andkret/Cookbook)
-
 - Github - [Awesome Data-Engineering](https://github.com/igorbarinov/awesome-data-engineering)
-
 - Github- [How To Become a Data Engineer](https://github.com/adilkhash/Data-Engineering-HowTo)
-
 - Github - [Nanodegree Projects](https://github.com/Flor91/Data-engineering-nanodegree)
-
+- GITHUB - [Nanodegree project 2](https://github.com/san089/Udacity-Data-Engineering-Projects)
 - Is dataFrame just a table
-
 - https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design
-
 - SQL Mastery
-
 - (AIEngineering)[https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw]  
+- List of Tools for [MLOps](https://docs.google.com/spreadsheets/d/1i8BzE4puGQ3dmQueu4LQCcwaqrulgK1Vb-xeFwhy6gY/edit)
+- [System Design Primer] https://github.com/donnemartin/system-design-primer
+- 
+
+### Interesting Articles/Case Studies: 
+
+- https://huyenchip.com/machine-learning-systems-design/case-studies.html#case-studies-bYrWS80
+
+- https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
 
   
 
