@@ -1,12 +1,7 @@
 
 #### Topics: 
 
-1. Data Modeling: A brief Overview
-2. Basic SQL 
-3. SQL Joins 
-4. SQL Aggregations
-5. SQL data Cleaning
-6. SQL Indexing and Performance Tuning 
+1. 
 
 
 -----

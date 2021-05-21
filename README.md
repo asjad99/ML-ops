@@ -1,4 +1,4 @@
-### ML Engineering For Enterprise grade ML
+### Notes on ML Engineering For Enterprise grade ML
 
  ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
 
@@ -32,10 +32,10 @@ systems to help people working in data engineering, modeling, deployment and bus
 
 ------
 
-About/Scope: 
+### About/Scope: 
 
 - We present an iterative framework for designing real-world machine learning systems. 
--  We take a system level view of things and architect a solution based on  business requirements where the end goal of this framework is to build a system that is deployable, reliable, and scalable.
+-  We want to take a system level view of things and architect a solution based on  business requirements where the end goal of this framework is to build a system that is deployable, reliable, and scalable.
 - Enterprise grade ML, a term mentioned in [a paper put forth by Microsoft](https://arxiv.org/abs/1909.00084), refers to ML applications where there is a high level of scrutiny for data handling, model fairness, user privacy, and debuggability. While toy problems that data scientists solve on laptops using a csv dataset could be intellectually challenging, they are not enterprise grade machine learning problems.
 - In deployment (via containers or spark applications, for example), governance becomes paramount, especially in regulated environments. Data lineage, data versioning, model versioning, model explainability, model monitoring are all front and center.
 - Examples of System Design/Data Engineering tasks include: 
@@ -48,14 +48,22 @@ About/Scope:
   - backfill data 
   - debug data quality issues 
   - optimize queries 
-  - design a database
+  - design a database 
+
+
+
+---
+
+
+
+Overall ML Engineering entails the following core activities: 
 
 | Task/Topic                                         | Description of sub-tasks/Topics                              | Selected Tools                                            | Theory/Notes                                                 | Example Code                                                 |
 | -------------------------------------------------- | :----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Frame the problem and Acquire data                 | 1. Identify areas of business that can benifit from machine learning <br /> 2. Translating a business problem into a machine learning problem. e.g supervised learning <br />3. Pick a sucess criteria - How would performance be measured? <br /> |                                                           |                                                              |                                                              |
-| Data Storage and Modeling (revise)                 | 1.  Acquire relvant data - estiamte space and engineering effort - setup a data version control system <br /> 2. Creating a data model  to store data and facilitating access by other team members  <br />3.  Setup Cloud Data Warehouses - Kimball methodology.  <br />4. Design a database - Relational Data Models (Postgres) <br /> 5. Document Model - NoSQL Data Models | POSTGRES, mongoDB, AWS - S3                               |                                                              |                                                              |
+| Data Storage and Modeling (revise)                 | 1.  Acquire relevant data - estimate space and engineering effort - setup a data version control system <br /> 2. Creating a data model  to store data and facilitating access by other team members  <br />3.  Setup Cloud Data Warehouses - Kimball methodology.  <br />4. Design a database - Relational Data Models (Postgres) <br /> 5. Document Model - NoSQL Data Models | POSTGRES, mongoDB,Google Big query , AWS - S3             |                                                              |                                                              |
 | Data Acquizition                                   | Ingest data from a data source e.g Querying data- Pulling data from a database (SQL or NOSQL) or Call S3 API | POSTGRES, mongoDB, AWS - S3                               |                                                              |                                                              |
-| Data Exploration                                   | Which features are categorical/Numerical? <br /> Which features contain blank, null or empty values?<br /> What are the data types for various features?<br /> What is the distribution of numerical feature values across the samples?<br />What is the distribution of categorical features?<br />Study correlation between a given target variable and all other variables<br />Visual Data Analysis: <br />Applying a dimensionality reduction on a dataset to facilitate model training or gather insights | Pandas, Matplotlib                                        |                                                              |                                                              |
+| Data Exploration                                   | - Which features are categorical/Numerical? <br /> - Which features contain blank, null or empty values?<br /> - What are the data types for various features?<br /> - What is the distribution of numerical feature values across the samples?<br />What is the distribution of categorical features?<br />Study correlation between a given target variable and all other variables<br />Visual Data Analysis: <br />Applying a dimensionality reduction on a dataset to facilitate model training or gather insights | Pandas, Matplotlib                                        |                                                              |                                                              |
 | Data Cleaning                                      | Handle Missing values<br />Handle Outliers/erronous data<br />Get into Tidy data | Pandas, Apache Spark                                      | [Spark Notes](https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce) | [ML_Course](https://github.com/asjad99/Machine-Learning-GYM) |
 | Data Preparation/Feature Engineering               | Feature Selection<br />Feature Encoding <br /> Add new promosing transformations of features <br /> Aggregate features into promosing new features |                                                           | [ML_Course](https://github.com/asjad99/Machine-Learning-GYM) | [ML_Course](https://github.com/asjad99/Machine-Learning-GYM) |
 | Training models                                    | Using one of the following methods: Linear Regression, Logistic Regression, Decision Trees, Random Forest, XGBoost, Support Vector Machines, K-means, K-Nearest Neighbors, Neural Networks, Principal Component Analysis, Naive Bayes Classifier, Lasso/Ridge regression, etc. <br />Implementing evaluation metrics such as accuracy, precision, recall, intersection over union, or mean average precision (mAP)Grid Search and Cross Validation | scikit-learn                                              | [ML_Course](https://github.com/asjad99/Machine-Learning-GYM) | [ML_Course](https://github.com/asjad99/Machine-Learning-GYM) |
@@ -66,37 +74,11 @@ About/Scope:
 | Setting up a cloud environment to deploy the model | Converting prototyped code into production code <br />Mastering cloud tools and infrastructure Preparing files (usually model architecture and parameters) for deployment <br />Encrypting files that store model parameters, architecture, and data <br />Setting up load-balancing requirements with engineers in charge of AI Infrastructure <br />Pruning or quantizing a model so it fits memory requirements | AWS                                                       |                                                              |                                                              |
 | Present / Launch Solution                          | Building APIs for an application to use a model -  Setting up HTTP RESTful API services to facilitate productionize <br /> Setting up authorization and authentication to access the API | **Flask etc**                                             |                                                              |                                                              |
 
-### 
-
 ---
 
 
 
-### Resources:
-
-- [Stanford Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
-- [book] Designing Data-Intensive Applications by Martin Kleppmann
-- [Machine Learning system design - book draft](https://huyenchip.com/machine-learning-systems-design/toc.html)
-- [System Design for Large Scale Machine Learning](https://shivaram.org/publications/shivaram-dissertation.pdf)
-- [Stanford MLSys Seminars](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ)
-- [Book - The Data Engineering Cookbook](https://github.com/andkret/Cookbook)
-- Github - [Awesome Data-Engineering](https://github.com/igorbarinov/awesome-data-engineering)
-- Github- [How To Become a Data Engineer](https://github.com/adilkhash/Data-Engineering-HowTo)
-- Github - [Nanodegree Projects](https://github.com/Flor91/Data-engineering-nanodegree)
-- GITHUB - [Nanodegree project 2](https://github.com/san089/Udacity-Data-Engineering-Projects)
-- https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design
-- (AIEngineering)[https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw]  
-- List of Tools for [MLOps](https://docs.google.com/spreadsheets/d/1i8BzE4puGQ3dmQueu4LQCcwaqrulgK1Vb-xeFwhy6gY/edit)
-- [System Design Primer] https://github.com/donnemartin/system-design-primer
-- Data Engineer RoadMap](https://github.com/datastacktv/data-engineer-roadmap)
-
-### Interesting Articles/Case Studies: 
-
-- https://huyenchip.com/machine-learning-systems-design/case-studies.html#case-studies-bYrWS80
-
-- https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
-
-- Is dataFrame just a table
+- 
 
   
 
@@ -108,11 +90,11 @@ About/Scope:
 
 
 
-| Task                                       | Description                                                  |
-| ------------------------------------------ | ------------------------------------------------------------ |
-| **Containers**                             | KubernetesDocker                                             |
-| **Create** **Data Lakes with Spark**       | Data Wrangling with Spark ` Setting up Spark Cluster with AWS Debugging and Optimisation`Intro to data lakes ` |
-| **Feature Store**                          | kind of an in-memory database such that at real time inference we have model features readily available |
-| **Speeding up model prediction time**      | - Applying techniques such as pruning, quantization, or compression to reduce memory requirements - Running inference speed vs. accuracy experiments on a model |
-| **Primer on distributed systems**          | ReplicationPartitioningTransactionsConsistency and Consensus |
-| Deal wit constantly shifting distributions | Data Drift :your real world dataset would not always have same distribution. For example the way a person shops in spring would be different than that of winter. So when you train a model on spring data set and deployed it you cant test it when winters come. So the data type is drifted away from normal and this is something to keep an eye Model Drift:now when your model is deployed and you start making predictions online (realtime) with passage of time due to data drift your model performance will de-grade and you would need to keep track of those changes. you would need to re train your model on latest dataset and then re-deploy it |
+| Task                                            | Description                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| **Containers**                                  | KubernetesDocker                                             |
+| **Create** **Data Lakes with Spark**            | Data Wrangling with Spark ` Setting up Spark Cluster with AWS Debugging and Optimisation`Intro to data lakes ` |
+| **Feature Store**                               | kind of an in-memory database such that at real time inference we have model features readily available |
+| **Speeding up model prediction time**           | - Applying techniques such as pruning, quantization, or compression to reduce memory requirements - Running inference speed vs. accuracy experiments on a model |
+| **Primer on distributed systems**               | ReplicationPartitioningTransactionsConsistency and Consensus |
+| **Deal with constantly shifting distributions** | Data Drift :your real world dataset would not always have same distribution. For example the way a person shops in spring would be different than that of winter. So when you train a model on spring data set and deployed it you cant test it when winters come. So the data type is drifted away from normal and this is something to keep an eye Model Drift:now when your model is deployed and you start making predictions online (realtime) with passage of time due to data drift your model performance will de-grade and you would need to keep track of those changes. you would need to re train your model on latest dataset and then re-deploy it |

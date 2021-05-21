@@ -24,8 +24,8 @@ company’s business processes with data pipelines.
 * read more: * 
 Building Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
 
- 
- --------
+
+--------
 
 
 
@@ -88,9 +88,9 @@ Ensuring the quality of your data through automated validated checks is a critic
 
 
 
-####  Definitions                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| - Directed Acyclic Graphs (DAGs): DAGs are a special subset of graphs in which the edges between nodes have a specific direction, and no cycles exist. When we say “no cycles exist” what we mean is the nodes cant create a path back to themselves.<br>- Nodes: A step in the data pipeline process.<br>- Edges: The dependencies or relationships other between nodes.<br>![](https://video.udacity-data.com/topher/2019/February/5c5f5b00_capture/capture.png) |
+####  Definitions                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+Directed Acyclic Graphs (DAGs): DAGs are a special subset of graphs in which the edges between nodes have a specific direction, and no cycles exist. When we say “no cycles exist” what we mean is the nodes cant create a path back to themselves.<br>- Nodes: A step in the data pipeline process.<br>- Edges: The dependencies or relationships other between nodes.<br>![](https://video.udacity-data.com/topher/2019/February/5c5f5b00_capture/capture.png) |
 
 Can we have two different pipelines for the same data and can we merge them back together?
 
@@ -143,5 +143,4 @@ Can we have two different pipelines for the same data and can we merge them back
 
 
 ![](https://paper-attachments.dropbox.com/s_57CCB7A335BDB77AAB2E972461A8839D5986AA25E977A30F29D0F24424145C71_1616845149711_Screen+Shot+2021-03-27+at+10.38.43+pm.png)
-
 
