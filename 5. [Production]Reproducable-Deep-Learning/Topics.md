@@ -1,7 +1,5 @@
 ## Topics
 
-
-
 - Git & Scripting
 - Hydra configuration
 - Data versioning with DVC
