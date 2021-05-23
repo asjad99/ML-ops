@@ -1,6 +1,6 @@
-### Notes on ML Engineering For Enterprise grade ML
+### Software Engineering for Data Intensive Applications 
 
- ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
+
 
 ### Motivation: 
 
@@ -30,9 +30,13 @@ model’s performance and business value and adjust accordingly to maximize bene
 -  AI infrastructure: People who work in AI infrastructure build and maintain reliable, fast, secure, and scalable software
 systems to help people working in data engineering, modeling, deployment and business analysis.
 
-------
 
-### About/Scope: 
+---
+
+#### Notes on ML Engineering For Enterprise grade ML
+
+ ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
+
 
 - We present an iterative framework for designing real-world machine learning systems. 
 -  We want to take a system level view of things and architect a solution based on  business requirements where the end goal of this framework is to build a system that is deployable, reliable, and scalable.
@@ -49,11 +53,6 @@ systems to help people working in data engineering, modeling, deployment and bus
   - debug data quality issues 
   - optimize queries 
   - design a database 
-
-
-
----
-
 
 
 Overall ML Engineering entails the following core activities: 
