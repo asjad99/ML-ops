@@ -1,39 +1,8 @@
-### Software Engineering for Data Intensive Applications 
+### Notes on MLOPS
+
+<img width="586" alt="Screenshot 2023-05-16 at 8 10 28 pm" src="https://github.com/asjad99/Engineering-Data-Products/assets/3470924/c6a9f137-bb9e-447a-bd32-904c552a0147">
 
 
-
-### Motivation: 
-
-With 2,3 trillion gigabytes of data created each day, companies have access to a broad range of information on their users, market and much more.
-This Data allows them to constantly improve their product/service. 
-
-- At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
-- At mid-stage growing start-ups: Since the company is growing, the data is probably growing too. The data platform needs to adapt, but with the foundation laid out already, there will be a natural shift to insight generation. Unless the company leverages Data Science for its strategic differentiation to start with, many analytics work are around defining KPI, attributing growth, and finding the next opportunities to grow
-- Companies who achieved scale: When the company scales up, data also scales up. It needs to leverage data to create or maintain competitive edge. e.g. Search results need to be better, recommendations need to be more relevant, logistics or operations need to be more efficient — this is the time where specialist like ML engineers, Optimization experts, Experimentation designers can play a huge role in stepping up the game.
-
-Before we can do data science we need to setup the infrastructure
-
-![alt text](images/ml_hierarchy_of_needs.png "Logo Title Text 1")
-
-
-Developing an AI project development life cycle involves five distinct tasks:
-
--  Data engineering: People responsible for data engineering prepare data
-and transform data into formats that other team members can use.
--  Modeling: People assigned to modeling look for patterns in data that can
-help a company predict outcomes of various decisions, identify business risks
-and opportunities, or determine cause-and-effect relationships.
--  Deployment: People in charge of deployment take a stream of data, combine it
-with a model, and test the integration before putting the model into production.
--  Business analysis: Team members responsible for business analysis evaluate a deployed
-model’s performance and business value and adjust accordingly to maximize benefit or abandon unproductive models.
--  AI infrastructure: People who work in AI infrastructure build and maintain reliable, fast, secure, and scalable software
-systems to help people working in data engineering, modeling, deployment and business analysis.
-
-
----
-
-#### Notes on ML Engineering For Enterprise grade ML
 
  ML Engineering = Machine learning systems design + Data Engineering + ML Ops 
 
